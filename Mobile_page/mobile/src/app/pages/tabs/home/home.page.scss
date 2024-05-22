@@ -1,0 +1,92 @@
+ion-row.tagline {
+    margin-top: 0; /* Garante que não haja margem superior */
+    margin-bottom: auto;
+    padding-left: 7vh;
+    padding: 20px 2%;
+    width: 100% ;
+   
+    ion-text {
+      font-size: 2rem;
+      font-weight: 900;
+      
+    }
+}
+
+ion-row.srch {
+    padding-right: 2.5vh;
+    align-items: center;
+    ion-searchbar {
+      --background: #dad9d9;
+      --border-radius: 10px;
+    }
+  }
+
+  ion-grid {
+    margin: 2vh 10px 4 5px;
+    ion-row {
+        ion-col {
+            padding: 5 !important;
+            ion-card {
+                border: 0.001vh solid var(--ion-color-medium);
+                height: 100px;
+                width: 100%;
+            
+                position: relative;
+                top: 10px;  
+                left: 30px;  
+        
+                  
+             border-radius: 20px;
+                margin: 0 !important;
+                padding: 0 !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                ion-label {
+                    font-size: 1.0rem;
+                    font-weight: 600;
+                    margin-top: 3px;
+                }
+                ion-thumbnail {
+                    height: 6vh;
+                }
+            }
+        }
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo dentro do contêiner */
+    position: relative;
+    top: -60px; /* Ajuste para subir a imagem */
+  }
+  
+  .image-container ion-card {
+    width: 80%; /* Ajusta a largura máxima do cartão */
+    border: 2px solid #ccc; /* Adiciona uma borda cinza clara ao cartão */
+    border-radius: 20px; /* Adiciona cantos arredondados ao cartão */
+    box-shadow: 3 8px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    position: relative; /* Mantém o cartão no fluxo do documento */
+  z-index: 10; /* Garante que o cartão fique abaixo da imagem */
+  }
+  
+  .custom-image {
+    width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+
+
+  ion-list.recentJobs {
+    ion-item {
+      margin-left: 1.5vh;
+      margin-right: 1.5vh;
+      border-radius: 10px;
+      ion-label {
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+      }
+    }
+}

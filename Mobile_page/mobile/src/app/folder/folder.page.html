@@ -1,0 +1,137 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="title-container">
+    <ion-title>Início</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- Adicione a classe "ion-no-padding" ao ion-searchbar para remover o preenchimento -->
+  <ion-searchbar class="ion-no-padding"></ion-searchbar>
+  <!-- Outro conteúdo da página aqui -->
+</ion-content>
+
+
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <!-- Linha 1 -->
+    <ion-row>
+      <!-- Coluna 1 - Cachorro -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Cachorro</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <!-- Conteúdo relacionado a cachorros -->
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Coluna 2 - Gato -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Gato</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <!-- Conteúdo relacionado a gatos -->
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Coluna 3 - Pássaros -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Pássaros</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <!-- Conteúdo relacionado a pássaros -->
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <!-- Linha 2 -->
+    <ion-row>
+      <!-- Coluna 1 - Peixes -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Peixes</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <!-- Conteúdo relacionado a peixes -->
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Coluna 2 - Outros Pets -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Outros Pets</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <!-- Conteúdo relacionado a outros pets -->
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Coluna 3 - Casa e Jardim -->
+      <ion-col size="4">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Casa e Jardim</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <!-- Conteúdo relacionado a casa e jardim -->
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- https://ionicframework.com/docs/api/tabs https://ionic.io/ionicons */-->
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="storefront-outline"></ion-icon> 
+      Loja
+    </ion-tab-button>
+
+    <ion-tab-button tab="radio">
+      <ion-icon name="reload-circle-outline"></ion-icon>
+      Recompra
+    </ion-tab-button>
+
+    <ion-tab-button tab="library">
+      <ion-icon name="reader-outline"></ion-icon>
+      Assinatura
+    </ion-tab-button>
+
+    <ion-tab-button tab="search">
+      <ion-icon name="cart-outline"></ion-icon>
+      Carrinho
+    </ion-tab-button>
+
+  </ion-tab-bar>
+</ion-tabs>

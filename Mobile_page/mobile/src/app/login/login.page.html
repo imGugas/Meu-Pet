@@ -1,0 +1,55 @@
+
+<ion-content class="ion-padding">
+  
+  <!-- Fundo laranja -->
+  <div class="orange-bg">
+
+    <!-- Div de logo -->
+    <div class="logo">
+      <ion-img src="assets/lg1.png"></ion-img>
+    </div>
+    
+    <!-- Card de login -->
+    <ion-card class="login-card">
+
+      <ion-card-header>
+        <ion-card-title>Login</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+        <ion-item>
+          <ion-label position="floating">Usuário</ion-label>
+          <ion-input type="text" [(ngModel)]="email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Senha</ion-label>
+          <ion-input type="password" [(ngModel)]="senha"></ion-input>
+        </ion-item>
+
+        
+
+      </ion-card-content>
+
+      <!-- Esqueceu sua senha -->
+    <ion-item class="forgot-password" (click)="login()">
+      <ion-label>Esqueceu sua senha?</ion-label>
+    </ion-item>
+
+      <ion-button expand="block" color="primary" (click)="showHome()">Entrar</ion-button>
+      
+
+      <!-- Ainda não tem conta? -->
+    <ion-item class="no-account" button (click)="irParaCadastro()">
+      <ion-label>Ainda não tem conta?</ion-label>
+    </ion-item>
+    
+
+    </ion-card>
+    
+    
+    
+    
+  </div>
+</ion-content>

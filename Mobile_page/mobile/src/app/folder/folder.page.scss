@@ -1,0 +1,83 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/* barra de pesuisa */
+ion-searchbar {
+  margin-top: 1px; /* Espaço entre o topo da página e a barra de pesquisa */
+}
+
+
+
+
+
+
+
+/* cards pets */
+/* Definindo margem entre os cards */
+ion-card {
+  margin: 0; /* Remove a margem padrão */
+  margin-bottom: 10px; /* Adiciona uma margem na parte inferior dos cards */
+}
+
+/* Estilo para os títulos dos cards */
+ion-card-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Estilo para o conteúdo dos cards */
+ion-card-content {
+  font-size: 14px;
+}
+
+/* Estilo para ajustar o tamanho dos cards em telas menores */
+@media (max-width: 576px) {
+  ion-card {
+    margin-bottom: 5px; /* Ajusta a margem inferior dos cards em telas menores */
+  }
+}
+
+/* Estilo para garantir que os cards tenham o mesmo tamanho */
+ion-grid {
+  height: 50%; /* Garante que o ion-grid ocupe toda a altura da página */
+}
+
+ion-row {
+  height: 50%; /* Divide a altura do ion-grid em duas linhas */
+}
+
+ion-col {
+  height: 100%; /* Garante que as colunas tenham a mesma altura */
+}

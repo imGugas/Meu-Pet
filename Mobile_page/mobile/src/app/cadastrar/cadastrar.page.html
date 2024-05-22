@@ -1,0 +1,60 @@
+
+<ion-content class="ion-padding">
+  
+  <!-- Fundo laranja -->
+  <div class="orange-bg">
+
+    <!-- Div de logo -->
+    <div class="logo">
+      <ion-img src="assets/lg1.png"></ion-img>
+    </div>
+    
+    <!-- Card de cadastro -->
+    <ion-card class="cadastro-card">
+
+      <ion-card-header>
+        <ion-card-title>Cadastro</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+        <ion-item>
+          <ion-label position="floating">Nome Completo</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label position="floating">Telefone</ion-label>
+          <ion-input type="tel"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Senha</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+        
+
+
+      </ion-card-content>
+
+  
+      <ion-button expand="block" color="primary">Cadastrar</ion-button>
+
+      <!-- Ainda não tem conta? -->
+      <ion-item class="have-account" button (click)="irParaLogin()">
+        <ion-label>Já tenho conta!</ion-label>
+      </ion-item>
+
+
+    </ion-card>
+    
+    
+    
+    
+  </div>
+</ion-content>
